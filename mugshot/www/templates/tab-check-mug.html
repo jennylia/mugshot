@@ -1,10 +1,12 @@
 <ion-view view-title="Check Mug">
-    <ion-view view-title="Register Mug" ng-controller="imageController">
+    <ion-view view-title="Register Mug" ng-controller="validationController">
 	<ion-content class="padding">
 			<span class="input-label">Check your mug today</span>
 			<label class="item item-input">
-				<input type="text" placeholder="URL">
+				<input type="text" id="new-mug" placeholder="MUG URL">
 			</label>
+			<button onclick="mugSubmit()" class="button button-block button-positive" >Validate me</button>
+
 	</ion-content>
 	</ion-view>
 </ion-view>
