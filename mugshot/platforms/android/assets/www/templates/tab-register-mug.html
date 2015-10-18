@@ -1,0 +1,14 @@
+<ion-view view-title="Register Mug" ng-controller="imageController">
+<ion-content class="padding">
+<label class="item item-input">
+	<span class="input-label">Name of owner</span>
+	<input type="text">
+</label>
+<button class="button button-energized" ng-click="addImage()">
+	Add image
+</button><br><br>
+<ion-scroll>
+<img ng-repeat="image in images" ng-src="{{urlForImage(image)}}" height="200px"/>
+</ion-scroll>
+</ion-content>
+</ion-view>
