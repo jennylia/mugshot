@@ -1,2 +1,2 @@
 # mugshot
-An app to make sure your app never gets "stolen"
+An app to make sure your mug never gets "stolen"
